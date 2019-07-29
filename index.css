@@ -1,0 +1,88 @@
+html{
+	height: 100%;
+}
+
+body {
+	min-height: 100%
+	margin: 0;
+	padding: 0;
+	background-color: #444;
+}
+
+.container {
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: calc(50% - 250px);
+	margin: 0 auto;
+	background-color: #333;
+	color: #ddd;
+	box-shadow: 0 0 5px 10px #333;
+}
+
+h3 {
+	height: 47px;
+	font-size: 40px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 300px;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 15px;
+}
+
+a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.first-name {
+	margin: 5px 0 0;
+}
+
+.last-name {
+	margin: 0;
+}
+
+.btn-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#vk-login {
+	border-radius: 20px 0 0 20px;
+}
+
+#vk-logout {
+	border-radius: 0 20px 20px 0;
+}
